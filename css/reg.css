@@ -1,0 +1,75 @@
+@media (max-width: 990px) {
+  .reg-main {
+    flex-wrap: wrap;
+  }
+  .reg-main > div {
+    margin: auto !important;
+  }
+  .left > img {
+    margin: auto;
+  }
+}
+.reg-main .left {
+  width: 50%;
+  height: 100vh;
+}
+
+.reg-main {
+  height: 100vh;
+}
+.hi {
+  left: 0;
+bottom: 0;
+  width: 500px;
+  position: absolute;
+  height: 580px;
+}
+form {
+  border-radius: 1.25rem;
+  background: var(--White, #fff);
+  box-shadow: 0px 0px 33px 0px rgba(0, 0, 0, 0.25);
+  margin-right: 50px;
+}
+form label {
+  color: #222831;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+form input {
+  padding: 3px;
+  border-radius: 7px;
+  border: 2px solid var(--green);
+  margin-right: 5px !important;
+}
+
+form h6 {
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 400;
+}
+form h6 a {
+  color: #000;
+  font-family: Poppins;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+form h5 {
+  color: #393e46;
+  font-family: Poppins;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+@media (max-width:1048px) {
+      .reg-main .left{
+        display: none;
+    }
+    .reg-main .right{
+        margin: auto !important;
+    }
+    form{
+        margin: 0;
+    }
+    
+}

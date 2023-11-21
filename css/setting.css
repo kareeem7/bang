@@ -1,0 +1,13 @@
+.top{
+    position: fixed;
+ height: 200px;
+ width: 100%;
+ top: 0;
+ z-index: -1;
+}
+body{
+    scroll-behavior: smooth;
+}
+#dash{
+    border-style: dashed !important;
+}

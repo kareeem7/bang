@@ -1,0 +1,22 @@
+@media (max-width:1048px) {
+
+    .about img{
+        margin: auto;
+    }
+    .about{
+        text-align: center;
+    }
+    
+}
+@media (max-width:548px) {
+.about .container{
+    flex-direction: column;
+}
+    .about img{
+        margin: auto;
+    }
+    .about{
+        text-align: center;
+    }
+    
+}
